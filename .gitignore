@@ -104,3 +104,4 @@ venv.bak/
 .mypy_cache/
 .idea/workspace.xml
 .vscode/launch.json
+/.vs
