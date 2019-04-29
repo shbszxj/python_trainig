@@ -105,3 +105,4 @@ venv.bak/
 .idea/workspace.xml
 .vscode/launch.json
 /.vs
+.vscode/settings.json
