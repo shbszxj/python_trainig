@@ -32,3 +32,15 @@ age_1 = 18
 print(age_0 >= 21 or age_1 >= 21)
 
 # 5.2.6 检查特定值是否包含在列表中
+requested_toppings = ['mushrooms', 'onions', 'pineapple']
+print("mushrooms in list : ", 'mushrooms' in requested_toppings)
+print("pepperoni in list : ", 'pepperoni' in requested_toppings)
+
+# 5.2.7 检查特定值是否不包含在列表中
+banned_users = ['andrew', 'carolina', 'david']
+user = 'marie'
+if user not in banned_users:
+    print(user.title() + ", you are not in list")
+
+# 5.2.8 布尔表达式
+flag = True
